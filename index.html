@@ -25,6 +25,41 @@
       <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
     </div>
     <!-- Todo: Create a modal with a form to add tasks -->
+        <!-- MODAL STARTS HERE -->
+        <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="formModalLabel">Add Task</h5>
+                <button type="button" class="close border border-light bg-light" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form id="task-form">
+                  <div class="form-group">
+                    <label for="task-title" class="col-form-label col-6">Task Title</label>
+                    <input type="text" class="form-control" id="task-name-input">
+                  </div>
+                  <div class="form-group">
+                    <label for="task-duedate" class="col-form-label col-6">Task Due Date</label>
+                    <input type="text" class="form-control mb-3" id="taskDueDate">                
+                  </div>
+                  <div class="form-group">
+                    <label for="task-description" class="col-form-label">Task Description</label>
+                    <textarea class="form-control" id="task-desc-input"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-success submit">Add Task</button>
+                  </div>
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+    
+        <!--Modal end-->
     <div class="row swim-lanes text-center justify-content-between">
       <div class="col-12 col-lg-4 d-flex">
         <div id="to-do" class="card border-light mb-3 lane flex-grow-1">
