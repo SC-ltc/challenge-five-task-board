@@ -19,6 +19,7 @@ https://sc-ltc.github.io/challenge-five-task-board/
 ## Course resources used for this assignment
 
 Module 5 - Third Party Apis
+
 Xpert Learning Assistant
 *Refer to the comments in the code
 
