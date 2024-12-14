@@ -9,9 +9,11 @@ https://github.com/coding-boot-camp/musical-happiness
 
 ## Link to the deployed application
 
+https://sc-ltc.github.io/challenge-five-task-board/
+
 ## Link to the repository for this project
 
-[Challenge 5 Repository](https://github.com/SC-ltc/challenge-18-social-network)
+[Challenge 5 Repository](https://github.com/SC-ltc/challenge-five-task-board)
 
 
 ## Course resources used for this assignment
