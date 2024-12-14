@@ -25,5 +25,7 @@ Xpert Learning Assistant
 ## Resources used
 
 [jQuery](https://jquery.com/)
+
 [Bootstrap Modals](https://getbootstrap.com/docs/4.0/components/modal/)
+
 [Day.js](https://day.js.org/)
